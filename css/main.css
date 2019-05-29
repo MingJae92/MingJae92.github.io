@@ -1504,11 +1504,9 @@ header .logo a {
 	margin-left: -30px;
 }
 .intro-info img {
-	height: 9rem;
-	width: 9rem;
-	border-radius: 50%;
-	margin: .9rem 0 0 0;
-	float: left;
+	height: 16rem;
+	width: 16rem;
+	margin: -1.1rem 0 0 0;
 }
 .intro-info .lead {
 	text-align: left;
@@ -1640,16 +1638,7 @@ header .logo a {
 	margin-top: 1.5rem;
 	margin-bottom: 6rem;
 }
-#resume .timeline-wrap::before {
-	content: "";
-	display: block;
-	width: 1px;
-	height: 100%;
-	background: rgba(0, 0, 0, 0.1);
-	position: absolute;
-	left: 35%;
-	top: 0;
-}
+
 #resume .timeline-block {
 	position: relative;
 	padding-top: 1.5rem;
@@ -1695,16 +1684,7 @@ header .logo a {
 	position: relative;
 	padding-bottom: 1.8rem;
 }
-#resume .timeline-content h4::after {
-	content: "";
-	display: block;
-	height: 3px;
-	width: 50px;
-	background: rgba(0, 0, 0, 0.2);
-	position: absolute;
-	left: 0;
-	bottom: 0;
-}
+
 
 /**
  * responsive:
